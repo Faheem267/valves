@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: black; 
+    font-family: "apercu", "-apple-system", system, sans-serif;
+}
+header
+{
+    display: flex;
+    height: 275px;
+
+}
+.logo
+{
+    width: 100px;
+    height: 30px;
+    padding-top: 50px;
+    padding-left: 85px;
+}
+
+section
+{
+    display: flex;
+}
+h2
+{
+    color: #F74843;
+    font-size: 38px;
+    line-height: 49px;
+    font-weight: 900;
+    width: 700px;
+    margin-left: 60px;
+    text-align: left;
+
+}
+h2:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.par
+{
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 200;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 550px;
+    margin-left: 60px;
+    text-align: left;
+    color: white;
+
+}
+input[type=text]
+{
+    position: absolute;
+    right: 150px;
+    top: 490px;
+    width: 340px;
+    padding: 10px;
+    background-color: black;
+    border: 1px hidden; 
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+::placeholder {
+    color: white;
+   
+}
+.sea
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 110px;
+    top: 500px;
+}
+.head
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 130px;
+}
+.head a
+{
+    color: #F74843;
+    font-size: 70px;
+    line-height: 84px;
+    font-weight: 900;
+    text-decoration: none;
+    padding-top: 30px;
+    margin-left: 60px;
+    text-align: left;
+    width: 840px;
+}
+a:hover
+{
+    color: white;
+}
+footer
+{
+    background-color: #F74843;
+    height: 140px;
+    padding-top: 34px;
+    padding-left: 65px;
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+/* }
+.item1
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.item1 a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 20px;
+}
+.item1 h6
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 40px; 
+} */
